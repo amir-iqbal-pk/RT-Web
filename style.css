@@ -1,0 +1,84 @@
+
+.nav-bar{
+    color: #041630;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    line-height: 1.15;
+    letter-spacing: normal;
+    box-sizing: border-box;
+}
+.nav-bar2{
+    padding-left: 5rem;
+}
+.nav-bar3{
+    padding-left: 5rem;
+}
+.nav-bar4{
+    padding-left: 5rem;
+    
+}
+
+#logo{
+    height: 100px;
+    max-width: 100%;
+    line-height: 1.15;
+    padding-left:60px;
+    flex-wrap: wrap;
+    display: inline;
+    display: flex;
+    margin: 0px 10px 0px 0px;
+    object-fit: cover;
+    object-fit: contain;
+}
+.letstalk{
+    color: red;
+    padding-top: 42px;
+}
+.header{
+  margin: 20px 50px 50px 50px;
+  max-width: 1500px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainHeading{
+    color:#041630;
+    margin: 0.67rem;
+    font-family: Muli;
+    font-size: 30px;
+    font-stretch: normal;
+    font-style: normal;
+    max-width: 700px;
+    display: block;
+    margin-block-start: 0px;
+    margin-inline-end: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-text-size-adjust: 100%;
+    justify-content: center;
+    padding-left: calc((100vw - 1024px)/2);
+    box-sizing: border-box;
+    line-height: 1.15;
+    
+}
+.subHeading{
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    color: #041630;
+    font-family: Muli;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding-left: calc((101vw - 1024px)/2);
+    max-width: 650px;
+}
+.h-1-page{
+  margin-right: 5rem;
+}
