@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 .nav-bar{
     color: #041630;
     flex-wrap: wrap;
@@ -22,7 +28,7 @@
 }
 
 #logo{
-    height: 100px;
+    height: 75px;
     max-width: 100%;
     line-height: 1.15;
     padding-left:60px;
@@ -35,7 +41,9 @@
 }
 .letstalk{
     color: red;
-    padding-top: 42px;
+    padding-top: 30px;
+    justify-content: space-between;
+    
 }
 .header{
   margin: 0rem 5rem 0rem 0rem;
@@ -45,127 +53,35 @@
   justify-content: space-between;
 }
 
-.mainHeading{
-    color:#041630;
-    margin: 0.67rem;
-    font-family: Muli;
-    font-size: 30px;
+#headings{
+    color: #041630;
     font-stretch: normal;
     font-style: normal;
-    max-width: 700px;
-    display: block;
-    margin-block-start: 0px;
-    margin-inline-end: 0px;
+    padding: 280px 80px 300px 270px;
+    font-size: large;
+    }
+
+.h-1-page{
     display: flex;
-    flex-wrap: wrap;
-    -webkit-box-direction: normal;
-    -webkit-box-orient: vertical;
-    -webkit-text-size-adjust: 100%;
-    justify-content: center;
-    padding-left: calc((100vw - 1024px)/2);
-    box-sizing: border-box;
-    line-height: 1.15;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 50px 0px 120px;
+    min-height: 100vh;
     
 }
-.subHeading{
-    font-family: Open Sans, sans-serif;
-    font-weight: 400;
-    color: #041630;
-    font-family: Muli;
-    font-size: 25px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 20px;
-    padding-left: calc((101vw - 1024px)/2);
-    max-width: 650px;
-}
-.h-1-page{
-     padding-right: 50px;
-    margin-top: 12rem; 
-   
-   
 
-}
-#logo2{
-   
-    position: absolute;
-    object-fit: contain;
+.heading-img{
     box-sizing: border-box;
-    outline: none;
-    top: 0px;
-    right: 0px;
-}
-.industries-section2{
-    max-width: 1024px;
-    width: 100%;
-    margin: auto;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orien:vertical;
-    -webkit-box-direction :normal ;
-    -webkit-flex-direction: column;
-    -moz-box-orient: vertical;
-    -moz-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-}
-.section2-MH{
-    color: #c5001a;
-    margin-bottom: 25px;
-    font-family: Muli;
-    font-size: 18px;
-    font-weight: 700;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: .3px;
-    margin: 0;
     position: relative;
+    top: 0;
+    right: 0;
+    height: 50vw;
+    width: 50vw;
 }
-.section2-SH{
-     position: relative;
-    font-family: Muli;
-    font-size: 28px;
-    font-weight: 800;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: .2px;
-    color: #041630;
-    margin-top: 50px ;
-    box-sizing: border-box;
-    outline: none; 
-}
-.technologygrid{
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    display: grid;
-    box-sizing: border-box;
-    outline: none;
-    max-width: 1024px;
+.heading-img > img{
+   
+    height: 100%;
     width: 100%;
-    margin: auto;
-    height: 120px;
-    -webkit-box-align: center;
-    align-items:center ;
-    -webkit-box-direction: normal;
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-    box-sizing: border-box;
-    outline: none;
-}
-.html-logo{
-    width: 100%;
-    height: 120px;
-    align-items: center;
-    -webkit-box-pack: center;
-    box-sizing: border-box;
-    outline:none ;
-    display: flex;
-    -webkit-box-ordinal-orient:vertical;
-    flex-direction: column;
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
+    object-fit: fill;
+    margin: -220px 0px 10px -45px;
 }
