@@ -2,29 +2,37 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
+   /* *{
+    outline: 1px solid red;
+}    */
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
 .nav-bar{
-    color: #041630;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     list-style: none;
-    line-height: 1.15;
-    letter-spacing: normal;
-    box-sizing: border-box;
-}
-.nav-bar2{
-    padding-left: 5rem;
-}
-.nav-bar3{
-    padding-left: 5rem;
-}
-.nav-bar4{
-    padding-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* cursor: pointer; */
+    width: 50%;
+     /* grid-column-gap: 100px; */
+    background-color: #3682e6;
+    border-radius: 7px;
     
+   
+
+
+    /* display: grid;
+    -ms-grid-columns: (auto)(5);
+    grid-template-columns: repeat(5, auto);
+    grid-column-gap: 72px;
+    -webkit-column-gap: 72px;
+    -moz-column-gap: 72px;
+    column-gap: 72px;
+    list-style: none;
+    margin: 0;
+    padding-top:31px ; */
 }
 
 #logo{
@@ -57,7 +65,7 @@ body{
     color: #041630;
     font-stretch: normal;
     font-style: normal;
-    padding: 280px 80px 300px 270px;
+    padding: 0px 34px 251px 150px;
     font-size: large;
     }
 
@@ -66,8 +74,13 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 50px 50px 0px 120px;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     
+}
+.section1-SH{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
 }
 
 .heading-img{
@@ -85,3 +98,92 @@ body{
     object-fit: fill;
     margin: -220px 0px 10px -45px;
 }
+.section2{
+    padding-bottom:0px;
+    padding-left: 162px;
+}
+.section2-MH{
+    color: red;
+    
+}
+.stack-logo{
+    list-style: none;
+    height: 100%;
+    object-fit: contain;
+    max-width: 100%;
+    background:#fff;
+    padding: 10px 10px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+.stack-logo-holder{
+     width: calc(12.666% - 30px); 
+     margin: 15px; 
+    padding: 10px 40px; 
+    height: 115px;
+    display: flex;
+    /* width: 260px; */
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* background-color: #b4d0f5; */
+}
+.Stack-text{
+    font-size: 15px;
+    color: rgb(27, 26, 26);
+    position: absolute;
+    bottom: 0px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+}
+.section2-SSH{
+    padding-bottom:0px;
+    padding-left: 162px;
+}
+.stack-logo2{
+    list-style: none;
+    object-fit: contain;
+    /* max-width: 100%; */
+    /* background:rgb(128, 93, 93); */
+    flex-wrap: wrap;
+    display: flex;
+    position: relative;
+    padding-left: 200px;
+    height: 200px;
+}
+.Stack-text2{
+      font-size: 15px;
+      position: absolute;
+      /* color: rgb(236, 229, 229); */
+      bottom: 0px;
+      font-weight: 300;
+      align-items: center;
+      justify-content: center;
+      padding-top: 15px;
+}
+.stack-logo-holder2{
+    width: calc(12.666% - 30px); 
+     margin: 15px; 
+    display: flex;
+    /* width: 260px; */
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.stack-logo-holder2 > img{ 
+    width: 100px;
+    height: 100px; 
+    cursor: pointer;
+    align-items: center;
+    justify-content: center; 
+}
+
